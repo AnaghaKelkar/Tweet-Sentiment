@@ -20,5 +20,7 @@ Installation:
 3. Parse the tweets. Classify each tweet as positive, negative or neutral.
    - We use sentiment.polarity method of TextBlob to get polarity between -1 to 1 and classify the tweets accordingly.
      -- if polarity > 0 => classify as "Positive"
+     
      -- if polarity < 0 => classify as "Negative"
+     
      -- if polarity = 0 => classify as "Neutral"
