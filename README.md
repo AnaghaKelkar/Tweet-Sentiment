@@ -18,9 +18,8 @@ Installation:
 1. Authorize Twitter API Client.
 2. Make a GET Request to Twitter API to fetch tweets for a particular query.
 3. Parse the tweets. Classify each tweet as positive, negative or neutral.
-   - We use sentiment.polarity method of TextBlob to get polarity between -1 to 1 and classify the tweets accordingly.
-     -- if polarity > 0 => classify as "Positive"
-     
-     -- if polarity < 0 => classify as "Negative"
-     
-     -- if polarity = 0 => classify as "Neutral"
+   - We use sentiment.polarity method of TextBlob to get polarity between -1 to 1 and classify the tweets accordingly
+   
+     1. if polarity > 0 => classify as "Positive"
+     2. if polarity < 0 => classify as "Negative"
+     3. if polarity = 0 => classify as "Neutral"
